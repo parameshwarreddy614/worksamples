@@ -1,0 +1,43 @@
+Requirement 1:
+
+Register.js:
+
+username - should not have space, atleast 5 chars, should not be in db
+
+emailId - proper email, should be unique
+
+password 
+
+confirm_password
+
+button
+
+add validations for the above
+
+
+API URL:  http://localhost:10899/user/register
+
+
+ex:
+
+{
+    "username":"saikumar223223444",
+    "password": "saikumar223223444",
+    "emailId":"saikumar223223444@digital-lync.com",
+    "role":"ROLE_ADMIN"
+}
+
+
+Login.js:http://localhost:10899/user/login
+
+ex:  {
+    "emailId":"kiran@digital-lync.com",
+    "password": "kiran",
+    "role":"ROLE_ADMIN"
+}
+
+
+emailId - proper email, should be unique
+
+password 
+

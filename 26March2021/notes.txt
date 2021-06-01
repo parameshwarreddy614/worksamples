@@ -1,0 +1,25 @@
+Middleware:
+
+A middleware is a function that acts like an interceptor which is used 
+preprocess some request and make a decision whether to serve the 
+actual resource or not.
+
+
+A middleware function will have 3 params, request, response and next.
+
+example:
+
+  var logger= function(request,response,next){
+
+  }
+
+There are 5 types of middleware,
+
+Application-level middleware:
+
+This middleware will be applied at application level where all the api calls 
+will go through this middleware.
+Router-level middleware: Used to apply middleware at router level
+Error-handling middleware : used to handle unexpected errors.
+Built-in middleware
+Third-party middleware
